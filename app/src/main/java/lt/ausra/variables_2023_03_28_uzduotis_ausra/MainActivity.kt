@@ -3,6 +3,7 @@ package lt.ausra.variables_2023_03_28_uzduotis_ausra
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.widget.Button
 import android.widget.TextView
 import org.w3c.dom.Text
 
@@ -65,7 +66,10 @@ class MainActivity : AppCompatActivity() {
         )
 
         val letterIdPositiveTextView: TextView = findViewById(R.id.letterIdPositiveTextView)
-        letterIdPositiveTextView.setText("The id of '$vardoPirmojiRaide' letter is $pirmosRaidesId ")
+        letterIdPositiveTextView.setText("The id of '$vardoPirmojiRaide' letter is $pirmosRaidesId")
+
+        val okButton: Button = findViewById(R.id.okButton)
+
 
     }
 }
